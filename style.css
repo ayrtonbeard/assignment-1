@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(232, 209, 209);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+  height: 150px;
+  font-family: monospace;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+h1 {
+  color: red;
+}
+
+nav {
+  display: flex;
+  gap: 50px;
+}
+
+.background-image1 {
+  background-image: url(./images/united.avif);
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.squad {
+  background-image: url(./images/26\ photo.jpg);
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.news {
+  background-image: url(./images/managers.jpg);
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.home-box {
+  background-color: rgb(246, 237, 237, 0.9);
+  position: absolute;
+  left: 5rem;
+  bottom: 10rem;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+button {
+  background-color: rgb(236, 126, 126);
+}
