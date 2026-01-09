@@ -2,29 +2,57 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Nova Square", sans-serif;
 }
 
 header {
-  background-color: rgb(232, 209, 209);
+  background-color: rgb(180, 10, 10);
   display: flex;
-  justify-content: space-between;
   align-items: center;
   gap: 20px;
-  padding: 10px;
-  height: 150px;
+  padding: 2rem;
+  height: 7rem;
   font-family: monospace;
   position: sticky;
   top: 0;
   z-index: 1;
+  justify-content: space-between;
+}
+
+.logo-h1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.header-logo {
+  height: 50px;
+  width: 50px;
 }
 
 h1 {
-  color: red;
+  color: rgb(255, 255, 255);
+}
+
+.red-h1 {
+  color: rgb(180, 10, 10);
 }
 
 nav {
   display: flex;
+  flex-wrap: wrap;
   gap: 50px;
+  font-size: large;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: rgb(0, 0, 0);
 }
 
 .background-image1 {
@@ -34,22 +62,8 @@ nav {
   width: 100%;
 }
 
-.squad {
-  background-image: url(./images/26\ photo.jpg);
-  background-size: cover;
-  height: 100vh;
-  width: 100%;
-}
-
-.news {
-  background-image: url(./images/managers.jpg);
-  background-size: cover;
-  height: 100vh;
-  width: 100%;
-}
-
 .home-box {
-  background-color: rgb(246, 237, 237, 0.9);
+  background-color: rgba(254, 240, 240, 0.9);
   position: absolute;
   left: 5rem;
   bottom: 10rem;
@@ -57,8 +71,185 @@ nav {
   gap: 1rem;
   flex-direction: column;
   padding: 2rem;
+  border-radius: 10px;
 }
 
 button {
-  background-color: rgb(236, 126, 126);
+  background-color: rgb(180, 10, 10);
+  padding: 1rem;
+  font-size: large;
+  color: white;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: rgb(254, 229, 0);
+}
+
+.fixture-h1 {
+  display: flex;
+  position: absolute;
+  top: 11rem;
+  left: 36rem;
+}
+
+.fixtures {
+  background-image: url(./images/26\ photo.jpg);
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.news {
+  background-image: url(./images/managers.jpg);
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.united {
+  height: 75px;
+  width: 75px;
+}
+
+.wolves {
+  height: 75px;
+  width: 75px;
+}
+
+.leeds {
+  height: 75px;
+  width: 75px;
+}
+
+.burnley {
+  height: 75px;
+  width: 75px;
+}
+
+.brighton {
+  height: 75px;
+  width: 75px;
+}
+
+.game1 {
+  background-color: rgba(254, 240, 240, 0.9);
+  position: absolute;
+  left: 20rem;
+  top: 20rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  padding: 1rem;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.game2 {
+  background-color: rgba(254, 240, 240, 0.9);
+  position: absolute;
+  left: 35rem;
+  top: 20rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  padding: 1rem;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.game3 {
+  background-color: rgba(254, 240, 240, 0.9);
+  position: absolute;
+  left: 50rem;
+  top: 20rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  padding: 1rem;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.game4 {
+  background-color: rgba(254, 240, 240, 0.9);
+  position: absolute;
+  left: 65rem;
+  top: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.headline {
+  background-color: rgba(254, 240, 240, 0.9);
+  position: absolute;
+  bottom: 3rem;
+  left: 1rem;
+  flex-wrap: wrap;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.button-carrick {
+  position: absolute;
+  bottom: 16rem;
+  left: 14.5rem;
+  border-radius: 10px;
+}
+
+.carrick {
+  padding: 0.7rem;
+}
+.carrick:hover {
+  background-color: rgb(254, 229, 0);
+  padding: 0.8rem;
+}
+
+.button-ole {
+  position: absolute;
+  bottom: 16rem;
+  left: 44rem;
+  border-radius: 10px;
+}
+.ole:hover {
+  background-color: rgb(254, 229, 0);
+  padding: 0.8rem;
+}
+.ole {
+  padding: 0.7rem;
+}
+
+.fletcher {
+  padding: 0.7rem;
+}
+
+.button-fletcher {
+  position: absolute;
+  bottom: 16rem;
+  left: 72rem;
+  border-radius: 10px;
+}
+
+.fletcher:hover {
+  background-color: rgb(254, 229, 0);
+  padding: 0.8rem;
+}
+
+footer {
+  background-color: rgb(180, 10, 10);
+  padding: 10px;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.7rem;
+  color: white;
 }

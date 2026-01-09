@@ -5,27 +5,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Man United Fan Page</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <h1>Man Utd Fan Page</h1>
+      <div class="logo-h1">
+        <img src="./images/united.png" class="header-logo" />
+        <h1 class="header-title">Man Utd Fan Page</h1>
+      </div>
       <nav>
         <a href="#top">Home</a>
-        <a href="#squad">Squad</a>
-        <a href="#news">News</a>
         <a href="#fixtures">Fixtures</a>
+        <a href="#news">News</a>
       </nav>
     </header>
 
-    <main id="top" class="background-image1">
+    <main>
+      <section id="top" class="background-image1"></section>
       <div class="home-box">
         <h2>Glory, Glory...</h2>
-        <h1>Man Utd</h1>
+        <h1 class="red-h1">Man Utd</h1>
         <p>The greatest fan page, for the greatest club</p>
-        <button>Click to see latest results</button>
+        <button><a href="#fixtures">Click to see latest results</a></button>
       </div>
+
+      <section id="fixtures" class="fixtures">
+        <h1 class="fixture-h1">Results & Fixtures</h1>
+        <div class="game1">
+          <img src="./images/united.png" class="united" />
+          <h2>V</h2>
+          <img src="./images/wolves.png" class="wolves" />
+          <h2>2 - 1</h2>
+        </div>
+        <div class="game2">
+          <img src="./images/leeds.png" class="leeds" />
+          <h2>V</h2>
+          <img src="./images/united.png" class="united" />
+          <h2>1 - 1</h2>
+        </div>
+        <div class="game3">
+          <img src="./images/burnley.png" class="burnley" />
+          <h2>V</h2>
+          <img src="./images/united.png" class="united" />
+          <h2>2 - 2</h2>
+        </div>
+        <div class="game4">
+          <h2>Next Fixture</h2>
+          <img src="./images/united.png" class="united" />
+          <h2>V</h2>
+          <img src="./images/brighton.png" class="brighton" />
+        </div>
+      </section>
+      <section id="news" class="news">
+        <div class="headline">
+          <h1 class="red-h1">
+            Manchester United on the hunt for a new manager
+          </h1>
+          <p>The 3 managers United are currently looking at are;</p>
+          <p>Michael Carrick, Ole Gunnar Solskaer and Darren Fletcher</p>
+        </div>
+        <div class="button-carrick">
+          <button class="carrick">Vote for Carrick</button>
+        </div>
+        <div class="button-ole">
+          <button class="ole">Vote for Ole</button>
+        </div>
+        <div class="button-fletcher">
+          <button class="fletcher">Vote for Fletcher</button>
+        </div>
+      </section>
     </main>
-    <section id="squad" class="squad"></section>
-    <section id="news" class="news"></section>
+    <footer>
+      <a href="#top"><h2>Back to top ^</h2></a>
+      <p>Man Utd Fan Page 2026 - Created By Ayrton Beard</p>
+    </footer>
   </body>
 </html>
